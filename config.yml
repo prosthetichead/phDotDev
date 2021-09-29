@@ -8,11 +8,17 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 00-000-00
+#googleAnalytics: 00-000-00
 
 minify:
     disableXML: true
     minifyOutput: true
+
+outputs:
+        home:
+                - HTML
+                - RSS
+                - JSON 
 
 params:
     env: production 
@@ -26,7 +32,7 @@ params:
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
     defaultTheme: dark # dark, light
-    disableThemeToggle: true
+    disableThemeToggle: false
 
     ShowReadingTime: false
     ShowShareButtons: true
@@ -73,23 +79,23 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Content: Welcome to my devlog
 
     socialIcons:
         - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
+          url: "https://twitter.com/ph2k"
+        - name: itchio 
+          url: "https://ph2k.itch.io"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/prosthetichead"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
+      # analytics:
+      # google:
+      # SiteVerificationTag: "XYZabc"
+      #  bing:
+      #      SiteVerificationTag: "XYZabc"
+      #  yandex:
+      #      SiteVerificationTag: "XYZabc"
 
     cover:
         hidden: true # hide everywhere but not in structured data
@@ -97,7 +103,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/<path_to_repo>/content"
+        URL: "https://github.com/prosthetichead/phDotDev/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -113,18 +119,22 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: search
+          name: search
+          url: /search
+          weight: 10
         - identifier: categories
           name: categories
           url: /categories/
-          weight: 10
+          weight: 20
         - identifier: tags
           name: tags
           url: /tags/
-          weight: 20
+          weight: 30
         - identifier: example
           name: example.org
           url: https://example.org
-          weight: 30
+          weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
