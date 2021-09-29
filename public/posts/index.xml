@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>prostheticHead.dev</title>
-    <link>https://prosthetichead.dev/</link>
-    <description>Recent content on prostheticHead.dev</description>
+    <title>Posts on prostheticHead.dev</title>
+    <link>https://prosthetichead.dev/posts/</link>
+    <description>Recent content in Posts on prostheticHead.dev</description>
     <image>
       <url>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Sep 2021 22:14:00 +0930</lastBuildDate><atom:link href="https://prosthetichead.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Sep 2021 22:14:00 +0930</lastBuildDate><atom:link href="https://prosthetichead.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://prosthetichead.dev/posts/my-first-post/</link>
@@ -18,8 +18,6 @@
       <guid>https://prosthetichead.dev/posts/my-first-post/</guid>
       <description>&lt;p&gt;this is a first post to test out posting&lt;/p&gt;</description>
     </item>
-    
-    
     
   </channel>
 </rss>

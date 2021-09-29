@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://prosthetichead.dev/categories/</loc>
+    <loc>https://prosthetichead.dev/posts/my-first-post/</loc>
+    <lastmod>2021-09-29T22:14:00+09:30</lastmod>
+  </url><url>
+    <loc>https://prosthetichead.dev/posts/</loc>
+    <lastmod>2021-09-29T22:14:00+09:30</lastmod>
   </url><url>
     <loc>https://prosthetichead.dev/</loc>
+    <lastmod>2021-09-29T22:14:00+09:30</lastmod>
+  </url><url>
+    <loc>https://prosthetichead.dev/archives/</loc>
+  </url><url>
+    <loc>https://prosthetichead.dev/categories/</loc>
   </url><url>
     <loc>https://prosthetichead.dev/search/</loc>
   </url><url>
