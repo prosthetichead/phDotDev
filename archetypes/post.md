@@ -4,5 +4,4 @@ date: {{ .Date }}
 draft: false
 tags: ["gameDev"] 
 categories: ["Game Dev"]
-series: ["Game DevLog"]
 ---

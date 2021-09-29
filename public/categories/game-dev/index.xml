@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>prostheticHead.dev</title>
-    <link>https://prosthetichead.dev/</link>
-    <description>Recent content on prostheticHead.dev</description>
+    <title>Game Dev on prostheticHead.dev</title>
+    <link>https://prosthetichead.dev/categories/game-dev/</link>
+    <description>Recent content in Game Dev on prostheticHead.dev</description>
     <image>
       <url>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Sep 2021 22:29:03 +0930</lastBuildDate><atom:link href="https://prosthetichead.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Sep 2021 22:29:03 +0930</lastBuildDate><atom:link href="https://prosthetichead.dev/categories/game-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Untitled Isoblockgame</title>
       <link>https://prosthetichead.dev/posts/untitled-isoblockgame/</link>
@@ -19,8 +19,6 @@
       <description>Untitled IsoBlockGame I still don&amp;rsquo;t have a name for this game yet. because original ideas in gaming have never existed its best described as &amp;ldquo;Dwarf Fortress Like&amp;rdquo;. The graphical look I&amp;rsquo;m aiming for is old isometric sprite based games like Sim City 2000 and Transport Tycoon.
 Small world blocks are generated using simplex noise and can be sliced to view the world in layers.</description>
     </item>
-    
-    
     
   </channel>
 </rss>
