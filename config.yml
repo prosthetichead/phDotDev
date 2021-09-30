@@ -25,7 +25,7 @@ params:
     # to enable google analytics, opengraph, twitter-cards and schema.
     
     title: prostheticHead.dev
-    description: "devlogs"
+    description: "my devlogs"
     keywords: [Blog, GameDev, Devlog]
     author: Ash
     # author: ["Me", "You"] # multiple authors
@@ -36,7 +36,7 @@ params:
 
     ShowReadingTime: false
     ShowShareButtons: true
-    ShowPostNavLinks: false 
+    ShowPostNavLinks: true 
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true 
     disableSpecial1stPost: false
