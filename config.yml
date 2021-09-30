@@ -48,15 +48,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "images/logo-small.png"
-        favicon16x16: "images/logo-small.png"
-        favicon32x32: "images/logo-small.png"
-        apple_touch_icon: "images/logo-small.png"
-        safari_pinned_tab: "images/logo-small.png"
+        favicon: "/images/logo-small.png"
+        favicon16x16: "/images/logo-small.png"
+        favicon32x32: "/images/logo-small.png"
+        apple_touch_icon: "/images/logo-small.png"
+        safari_pinned_tab: "/images/logo-small.png"
 
     label:
         text: "prostheticHead.dev"
-        icon: images/logo-small.png
+        icon: /images/logo-small.png
         iconHeight: 32
 
     # profile-mode
