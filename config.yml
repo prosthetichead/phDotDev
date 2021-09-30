@@ -8,17 +8,15 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: 00-000-00
-
 minify:
-    disableXML: true
+    disableXML: false
     minifyOutput: true
 
 outputs:
-        home:
-                - HTML
-                - RSS
-                - JSON 
+  home:
+    - HTML
+    - RSS
+    - JSON 
 
 params:
     env: production 
@@ -79,9 +77,9 @@ params:
               url: tags
 
     # home-info mode
-    homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my devlog
+    #homeInfoParams:
+    #    Title: "Hi there \U0001F44B"
+    #    Content: Welcome to my devlog
 
     socialIcons:
         - name: twitter
@@ -91,14 +89,6 @@ params:
         - name: github
           url: "https://github.com/prosthetichead"
 
-      # analytics:
-      # google:
-      # SiteVerificationTag: "XYZabc"
-      #  bing:
-      #      SiteVerificationTag: "XYZabc"
-      #  yandex:
-      #      SiteVerificationTag: "XYZabc"
-
     cover:
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
@@ -106,7 +96,7 @@ params:
 
     editPost:
         URL: "https://github.com/prosthetichead/phDotDev/tree/main/content"
-        Text: "Suggest Changes" # edit text
+        Text: "View Source" # edit text
         appendFilePath: true # to append file path to Edit link
 
     # for search
@@ -125,6 +115,10 @@ menu:
           name: search
           url: /search
           weight: 10
+        - identifier: posts 
+          name: posts
+          url: /posts/
+          weight: 20
         - identifier: categories
           name: categories
           url: /categories/
@@ -133,10 +127,7 @@ menu:
           name: tags
           url: /tags/
           weight: 40
-        - identifier: posts 
-          name: posts
-          url: /posts/
-          weight: 20
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
