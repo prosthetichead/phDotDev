@@ -59,7 +59,7 @@ params:
     label:
         text: "prostheticHead.dev"
         icon: images/logo-small.png
-        iconHeight: 35
+        iconHeight: 64
 
     # profile-mode
     profileMode:
