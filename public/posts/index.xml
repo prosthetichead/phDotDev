@@ -1,34 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on prostheticHead.dev</title>
-    <link>https://prosthetichead.dev/posts/</link>
-    <description>Recent content in Posts on prostheticHead.dev</description>
-    <image>
-      <url>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Sep 2021 22:29:03 +0930</lastBuildDate><atom:link href="https://prosthetichead.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Untitled Isoblockgame</title>
-      <link>https://prosthetichead.dev/posts/untitled-isoblockgame/</link>
-      <pubDate>Wed, 29 Sep 2021 22:29:03 +0930</pubDate>
-      
-      <guid>https://prosthetichead.dev/posts/untitled-isoblockgame/</guid>
-      <description>Untitled IsoBlockGame The main project I&amp;rsquo;m working on at the moment is a game I have been making off and on for a few years now. I still don&amp;rsquo;t have an offical name for this game yet, at the moment the project name is isoblockgame.
-The Elevator Pitch because original ideas in gaming have never existed its best described as &amp;ldquo;Dwarf Fortress Like&amp;rdquo; in gameplay but much less complex. The graphical style I&amp;rsquo;m aiming for is old isometric sprite based games like Sim City 2000 and Transport Tycoon.</description>
-    </item>
-    
-    <item>
-      <title>Trees and Grass</title>
-      <link>https://prosthetichead.dev/posts/trees-and-grass/</link>
-      <pubDate>Sun, 26 Sep 2021 22:46:48 +0000</pubDate>
-      
-      <guid>https://prosthetichead.dev/posts/trees-and-grass/</guid>
-      <description>Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.
-Grass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on prostheticHead.dev</title><link>https://prosthetichead.dev/posts/</link><description>Recent content in Posts on prostheticHead.dev</description><image><url>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://prosthetichead.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 29 Sep 2021 22:29:03 +0930</lastBuildDate><atom:link href="https://prosthetichead.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Untitled Isoblockgame</title><link>https://prosthetichead.dev/posts/untitled-isoblockgame/</link><pubDate>Wed, 29 Sep 2021 22:29:03 +0930</pubDate><guid>https://prosthetichead.dev/posts/untitled-isoblockgame/</guid><description>Untitled IsoBlockGame The main project I&amp;rsquo;m working on at the moment is a game I have been making off and on for a few years now. I still don&amp;rsquo;t have an offical name for this game yet, at the moment the project name is isoblockgame.
+The Elevator Pitch because original ideas in gaming have never existed its best described as &amp;ldquo;Dwarf Fortress Like&amp;rdquo; in gameplay but much less complex. The graphical style I&amp;rsquo;m aiming for is old isometric sprite based games like Sim City 2000 and Transport Tycoon.</description></item><item><title>Trees and Grass</title><link>https://prosthetichead.dev/posts/trees-and-grass/</link><pubDate>Sun, 26 Sep 2021 22:46:48 +0000</pubDate><guid>https://prosthetichead.dev/posts/trees-and-grass/</guid><description>Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.
+Grass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.</description></item></channel></rss>

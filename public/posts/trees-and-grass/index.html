@@ -10,12 +10,13 @@ Grass growing right now is done by looking for blocks with grass as the floor ch
 <meta name=author content="Ash">
 <link rel=canonical href=https://prosthetichead.dev/posts/trees-and-grass/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.5e2b4101351c21e906f398ae96901791830f58d430f96f2659dab7eaef7b3cb7.css integrity="sha256-XitBATUcIekG85iulpAXkYMPWNQw+W8mWdq36u97PLc=" rel="preload stylesheet" as=style>
+<link rel=preload href=images/logo-small.png as=image>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://prosthetichead.dev/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=16x16 href=https://prosthetichead.dev/%3Clink%20/%20abs%20url%3E>
-<link rel=icon type=image/png sizes=32x32 href=https://prosthetichead.dev/%3Clink%20/%20abs%20url%3E>
-<link rel=apple-touch-icon href=https://prosthetichead.dev/%3Clink%20/%20abs%20url%3E>
-<link rel=mask-icon href=https://prosthetichead.dev/%3Clink%20/%20abs%20url%3E>
+<link rel=icon href=https://prosthetichead.dev/images/logo-small.png>
+<link rel=icon type=image/png sizes=16x16 href=https://prosthetichead.dev/images/logo-small.png>
+<link rel=icon type=image/png sizes=32x32 href=https://prosthetichead.dev/images/logo-small.png>
+<link rel=apple-touch-icon href=https://prosthetichead.dev/images/logo-small.png>
+<link rel=mask-icon href=https://prosthetichead.dev/images/logo-small.png>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
@@ -34,14 +35,15 @@ Grass growing right now is done by looking for blocks with grass as the floor ch
 <meta name=twitter:description content="Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.
 Grass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://prosthetichead.dev/posts/"},{"@type":"ListItem","position":2,"name":"Trees and Grass","item":"https://prosthetichead.dev/posts/trees-and-grass/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Trees and Grass","name":"Trees and Grass","description":"Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.\nGrass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.","keywords":[],"articleBody":"Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.\nGrass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.\nTrees are my first World Entity class. The update method for entities is called every tick and for trees a tick count is used to grow fruit or drop the fruit. This can be seen in the video with trees gaining and losing red dots which represent apples.\n{% youtube s8G2osx-I2s %}\nVideo of Trees and Grass\n","wordCount":"168","inLanguage":"en","datePublished":"2021-09-26T22:46:48Z","dateModified":"2021-09-26T22:46:48Z","author":{"@type":"Person","name":"Ash"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://prosthetichead.dev/posts/trees-and-grass/"},"publisher":{"@type":"Organization","name":"prostheticHead.dev","logo":{"@type":"ImageObject","url":"https://prosthetichead.dev/%3Clink%20/%20abs%20url%3E"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Trees and Grass","name":"Trees and Grass","description":"Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.\nGrass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.","keywords":[],"articleBody":"Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.\nGrass growing right now is done by looking for blocks with grass as the floor checking if a dirt floor block is nearby and if it is doing a dice roll, the dice roll chooses if a grow happens and the direction it will grow in.\nTrees are my first World Entity class. The update method for entities is called every tick and for trees a tick count is used to grow fruit or drop the fruit. This can be seen in the video with trees gaining and losing red dots which represent apples.\n{% youtube s8G2osx-I2s %}\nVideo of Trees and Grass\n","wordCount":"168","inLanguage":"en","datePublished":"2021-09-26T22:46:48Z","dateModified":"2021-09-26T22:46:48Z","author":{"@type":"Person","name":"Ash"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://prosthetichead.dev/posts/trees-and-grass/"},"publisher":{"@type":"Organization","name":"prostheticHead.dev","logo":{"@type":"ImageObject","url":"https://prosthetichead.dev/images/logo-small.png"}}}</script>
 </head>
 <body class=dark id=top>
 <script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove('dark')</script>
 <header class=header>
 <nav class=nav>
 <div class=logo>
-<a href=https://prosthetichead.dev/ accesskey=h title="prostheticHead.dev (Alt + H)">prostheticHead.dev</a>
+<a href=https://prosthetichead.dev/ accesskey=h title="prostheticHead.dev (Alt + H)">
+<img src=images/logo-small.png alt=logo aria-label=logo height=32>prostheticHead.dev</a>
 <span class=logo-switches>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
@@ -78,7 +80,7 @@ Grass growing right now is done by looking for blocks with grass as the floor ch
 <h1 class=post-title>
 Trees and Grass
 </h1>
-<div class=post-meta>September 26, 2021&nbsp;·&nbsp;Ash&nbsp;|&nbsp;<a href=https://github.com/prosthetichead/phDotDev/tree/main/content/posts/Trees-and-Grass.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta>September 26, 2021&nbsp;·&nbsp;Ash&nbsp;|&nbsp;<a href=https://github.com/prosthetichead/phDotDev/tree/main/content/posts/Trees-and-Grass.md rel="noopener noreferrer" target=_blank>View Source</a>
 </div>
 </header>
 <div class=post-content><p>Tonight I was able to get block floors and trees updating on update ticks. At the moment we are going by 1 update tick == 1 game world hour. Update ticks can be set to be any fraction of real world seconds so .5 real world seconds could equal 1 game hour for example, this should result in being able to set the games speed.</p>
@@ -88,6 +90,13 @@ Trees and Grass
 <p><a href="https://www.youtube.com/watch?v=s8G2osx-I2s">Video of Trees and Grass</a></p>
 </div>
 <footer class=post-footer>
+<nav class=paginav>
+<a class=prev href=https://prosthetichead.dev/posts/untitled-isoblockgame/>
+<span class=title>« Prev Page</span>
+<br>
+<span>Untitled Isoblockgame</span>
+</a>
+</nav>
 <div class=share-buttons>
 <a target=_blank rel="noopener noreferrer" aria-label="share Trees and Grass on twitter" href="https://twitter.com/intent/tweet/?text=Trees%20and%20Grass&url=https%3a%2f%2fprosthetichead.dev%2fposts%2ftrees-and-grass%2f&hashtags="><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
 </a>
