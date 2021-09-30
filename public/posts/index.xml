@@ -16,8 +16,9 @@
       <pubDate>Wed, 29 Sep 2021 22:29:03 +0930</pubDate>
       
       <guid>https://prosthetichead.dev/posts/untitled-isoblockgame/</guid>
-      <description>Untitled IsoBlockGame I still don&amp;rsquo;t have a name for this game yet. because original ideas in gaming have never existed its best described as &amp;ldquo;Dwarf Fortress Like&amp;rdquo;. The graphical look I&amp;rsquo;m aiming for is old isometric sprite based games like Sim City 2000 and Transport Tycoon.
-Small world blocks are generated using simplex noise and can be sliced to view the world in layers.</description>
+      <description>Untitled IsoBlockGame I still don&amp;rsquo;t have a name for this game yet, at the moment the project name is isoblockgame.
+because original ideas in gaming have never existed its best described as &amp;ldquo;Dwarf Fortress Like&amp;rdquo; in gameplay but much less complex. The graphical look I&amp;rsquo;m aiming for is old isometric sprite based games like Sim City 2000 and Transport Tycoon.
+Small world chunks of cubes are generated using simplex noise and can be sliced to view the world as layers.</description>
     </item>
     
     <item>
