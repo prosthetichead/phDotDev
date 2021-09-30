@@ -58,8 +58,8 @@ params:
 
     label:
         text: "prostheticHead.dev"
-        #icon: /apple-touch-icon.png
-        #iconHeight: 35
+        icon: images/logo-small.png
+        iconHeight: 35
 
     # profile-mode
     profileMode:
