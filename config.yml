@@ -7,7 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: 209073536
+googleAnalytics: G-6TS83LRCNG
 
 minify:
     disableXML: false
