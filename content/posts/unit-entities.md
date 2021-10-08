@@ -13,6 +13,6 @@ should not have much issue adding it soon.
 Below is a short video of the units and AI in action, I recorded this on my macbook while away on holiday which was also intresting as I was able to get the game
 working on both MacOS and Windows! 
 
-There is a small issue in this video also with units moving more then once per tick due to them moving into a block that has not yet been updated updating the same entity more then once. I plan on fixing this using a list of entities already updated this tick which is cleared every tick.
+There is a small issue in this video also with units moving more then once per tick due to them moving into a block that has not yet been updated, updating the same entity more then once. I plan on fixing this using a list of entities already updated this tick which is cleared every tick.
 
 {{< youtube U3T5syUySmg >}}
