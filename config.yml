@@ -49,15 +49,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "/images/logo-small.png"
-        favicon16x16: "/images/logo-small.png"
-        favicon32x32: "/images/logo-small.png"
-        apple_touch_icon: "/images/logo-small.png"
-        safari_pinned_tab: "/images/logo-small.png"
+        favicon: "/images/keen.png"
+        favicon16x16: "/images/keen.png"
+        favicon32x32: "/images/keen.png"
+        apple_touch_icon: "/images/keen.png"
+        safari_pinned_tab: "/images/keen.png"
 
     label:
         text: "prostheticHead.dev"
-        icon: /images/logo-small.png
+        icon: /images/keen.png
         iconHeight: 32
 
     # profile-mode
@@ -65,9 +65,9 @@ params:
         enabled: true # needs to be explicitly set
         title: prostheticHead.dev
         subtitle: ""
-        imageUrl: "/images/cga-keen-large.png"
-        imageWidth: 1368
-        imageHeight: 1080
+        imageUrl: "/images/keen.png"
+        imageWidth: 120
+        imageHeight: 120
         #imageTitle: prostheticHead
         buttons:
             - name: Posts
