@@ -66,8 +66,8 @@ params:
         title: prostheticHead.dev
         subtitle: ""
         imageUrl: "/images/cga-keen-large.png"
-        #imageWidth: 120
-        #imageHeight: 120
+        imageWidth: 1368
+        imageHeight: 1080
         #imageTitle: prostheticHead
         buttons:
             - name: Posts
