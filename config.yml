@@ -65,12 +65,12 @@ params:
         enabled: true # needs to be explicitly set
         title: prostheticHead.dev
         subtitle: ""
-        imageUrl: "/images/logo-small.png"
+        imageUrl: "/images/cga-keen-large.png"
         #imageWidth: 120
         #imageHeight: 120
         #imageTitle: prostheticHead
         buttons:
-            - name: All Posts
+            - name: Posts
               url: posts
             - name: 3D Printing
               url: categories/3d-printing/
