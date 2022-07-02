@@ -73,7 +73,7 @@ params:
             - name: Posts
               url: posts
             - name: 3D Prints
-              url: posts
+              url: prints
             - name: Archives
               url: archives
             - name: Tags
