@@ -4,6 +4,10 @@ date: 2021-07-03T24:46:00+09:30
 draft: false
 tags: ["3d Printing"]
 categories: ["3d Printing"]
+cover:
+    image: "/images/3d-prints/boom-arm-clip-1.jpg"
+    alt: "<alt text>"
+    caption: "<text>"
 ---
 
 ## Boom Arm Clips
