@@ -5,9 +5,9 @@ draft: false
 tags: ["3d Printing"]
 categories: ["3d Printing"]
 cover:
-    image: "/images/3d-prints/boom-arm-clip-1.jpg"
-    alt: "<alt text>"
-    caption: "<text>"
+    image: "/images/3d-prints/boom-arm-clip-cover.jpg"
+    alt: "alt text"
+    caption: ""
 ---
 
 ## Boom Arm Clips
