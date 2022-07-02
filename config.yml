@@ -62,7 +62,7 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: true # needs to be explicitly set
+        enabled: false # needs to be explicitly set
         title: prostheticHead.dev
         subtitle: ""
        # imageUrl: "/images/keen.png"
