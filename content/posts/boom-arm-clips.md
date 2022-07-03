@@ -1,6 +1,6 @@
 ---
 title: "Boom Arm Clips"
-date: 2022-07-03T23:46:00+09:30
+date: 2021-07-03T24:46:00+09:30
 draft: false
 tags: ["3d Printing"]
 categories: ["3d Printing"]
@@ -16,3 +16,4 @@ I tried a few clips available on Thiniverse and [this boom arm clip](https://www
 The STL can be found [here](https://www.thingiverse.com/thing:5275446) 
 
 ![Boom Arm Clip](/images/3d-prints/boom-arm-clip-1.jpg)
+
