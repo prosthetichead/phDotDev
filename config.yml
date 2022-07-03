@@ -1,4 +1,4 @@
-baseURL: https://prosthetichead.dev/
+baseURL: /
 title: prostheticHead.dev
 paginate: 5
 theme: "PaperMod"
