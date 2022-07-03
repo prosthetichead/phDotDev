@@ -1,6 +1,6 @@
 ---
 title: "Boom Arm Clips"
-date: 2021-07-03T24:46:00+09:30
+date: 2022-07-02T23:46:00+09:30
 draft: false
 tags: ["3d Printing"]
 categories: ["3d Printing"]
