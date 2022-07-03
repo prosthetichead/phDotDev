@@ -16,5 +16,3 @@ I tried a few clips available on Thiniverse and [this boom arm clip](https://www
 The STL can be found [here](https://www.thingiverse.com/thing:5275446) 
 
 ![Boom Arm Clip](/images/3d-prints/boom-arm-clip-1.jpg)
-
- 
