@@ -1,6 +1,6 @@
 ---
 title: "Nintendo Joy-Con Grip"
-date: 2022-07-16T14:00:00+09:30
+date: 2022-07-15T14:00:00+09:30
 draft: false
 tags: ["3d Printing"]
 categories: ["3d Printing"]
