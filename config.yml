@@ -25,10 +25,10 @@ params:
     
     title: prostheticHead.dev
     description: "my personal devlog"
-    keywords: [Blog, GameDev, Devlog]
+    keywords: [Blog, GameDev, Devlog, 3dPrinting]
     author: Ash
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+    images: ["/images/keen.png"]
     DateFormat: "January 2, 2006"
     defaultTheme: dark # dark, light
     disableThemeToggle: true
